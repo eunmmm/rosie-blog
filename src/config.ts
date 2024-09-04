@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://rosiebaek.site",
   author: "rosie",
-  profile: "https://satnaing.dev/",
+  profile: "https://github.com/eunmmm",
   desc: "개발 블로그 입니다.",
   title: "rosieBlog",
   ogImage: "astropaper-og.jpg",
@@ -14,8 +14,8 @@ export const SITE: Site = {
 };
 
 export const LOCALE = {
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  lang: "ko",
+  langTag: ["ko-KR"],
 } as const;
 
 export const LOGO_IMAGE = {
